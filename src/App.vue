@@ -8,7 +8,7 @@
                 <button class="btn btn-danger" @click="selectedColor = 'appRed'">Load Red Template</button>
                 <hr>
                 <component :is="selectedColor">
-                    <p slot="content">{{ greeting }}</p>
+                    <p>{{ greeting }}</p>
                 </component>
             </div>
         </div>
